@@ -1,2 +1,2 @@
 # Atividade_em_C
- Atividade realizada em C
+ Aqui ficam guardadas as todas as Atividades feitas em C. 
