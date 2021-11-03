@@ -17,3 +17,17 @@ int main(void) {
   printf("[2º vetor]Digite um numero inteiro: \n");
   scanf("%i", &num1[i]);
   }
+  for(i = 0; i < B; i++){
+    if(num[i] == num1[i]){
+      printf("[Vetores iguais] \n");
+      printf("Vetores %iA e %iB são iguais\n", i, i);
+      printf("\n");
+    }
+    else{
+      printf("[Vetores diferentes] \n");
+      printf("Vetores %iA e %iB são diferentes\n",i,i);
+      printf("\n");
+    }
+  }
+  return 0;
+}
