@@ -15,4 +15,11 @@ int main(void) {
       scanf("%i", &m[x][y]);
     }
   }
+
+  for(x = 0; x < 4; x++){
+    printf("Valor da Diagonal: %i\n",m[x][x]);
+    med = med + m[x][x];
+  }
+  printf("Valor da média da diagonal [%.1f]", med / 4);
+  return 0;
 }
