@@ -22,3 +22,15 @@ int main(void) {
       scanf("%f", &notas[i][j]);
       }
     }
+  }
+  for(j = 0; j<COLUNAS; j++){
+    med=0;
+    printf("NOTAS DA TURMA [%i]\n", j + 1);
+    for(i = 0;i <LINHAS; i++){
+      printf("Aluno %i: %.1f\n", i + 1, notas[i][j]);
+      med = med + notas[i][j];
+    }
+    printf("Media da turma! %.1f\n", med / LINHAS);
+  }
+  return 0;
+}
