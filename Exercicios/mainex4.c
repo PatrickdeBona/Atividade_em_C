@@ -16,3 +16,15 @@ int main(void) {
         matriz[i][j] = 0;
     }
   }
+  printf("MATRIZ[%i][%i]:\n", T, T);
+  for(i = 0; i < T; i++){
+    for(j = 0; j < T; j++){
+      printf("\t%i", matriz[i][j]);
+      med = med + matriz[i][j];
+    }
+    printf("\n");
+    
+  }
+  printf("Media Da Matriz Trinagular Superior [%.1f]", med / 15);
+  return 0;
+}
