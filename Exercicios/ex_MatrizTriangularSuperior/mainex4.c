@@ -25,6 +25,6 @@ int main(void) {
     printf("\n");
     
   }
-  printf("Media Da Matriz Trinagular Superior [%.1f]", med / 15);
+  printf("Media Da Matriz Triangular Superior [%.1f]", med / 15);
   return 0;
 }
